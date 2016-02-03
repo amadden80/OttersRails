@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @otter.name %>
+</p>
+
+<p>
+  <strong>Age:</strong>
+  <%= @otter.age %>
+</p>
+
+<p>
+  <strong>Bio:</strong>
+  <%= @otter.bio %>
+</p>
+
+<%= link_to 'Edit', edit_otter_path(@otter) %> |
+<%= link_to 'Back', otters_path %>
